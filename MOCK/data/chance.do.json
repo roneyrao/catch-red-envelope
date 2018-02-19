@@ -1,0 +1,27 @@
+﻿{
+    "ret": true,
+    "logId": 6454,
+    "chanceInfo": "prize[82]:1436940250241",
+    "userScore": 199,
+    "prizeInfo": {
+        "beforeScore": 0,
+        "exchangeType": 1,
+        "extraInfo": "",
+        "iconUrl": "",
+        "inactiveType": 0,
+        "isChance": 0,
+        "minScore": 30,
+        "nextTime": null,
+        "operType": 3,
+        "orderNum": 82,
+        "prizeBility": 0,
+        "prizeDesc": "500QB",
+        "prizeId": 82,
+        "prizeType": 2,
+        "probability": 20,
+        "status": true
+    },
+    "inactiveType": 0,
+    "changeScore": 650,
+    "firstChance": 1
+}
