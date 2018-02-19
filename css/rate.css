@@ -455,6 +455,7 @@ html.end body:after{
 }
 .prizeFlow{
 	line-height: 2.5em;
+  text-indent:2em;
 }
 
 #hozBanners .half{
@@ -1378,6 +1379,10 @@ body.got #share_got{display:block;width: 70%;margin: 0 auto;margin-bottom: 2em;}
 	height: 1.5em;
 	background-position: center right;
 }
+#box-ctnr{
+  margin: 0 auto;
+  max-width:480px;
+}
 .box{
 	margin: 10% 5% 5%;
 	background:#e5634a;
@@ -1385,13 +1390,11 @@ body.got #share_got{display:block;width: 70%;margin: 0 auto;margin-bottom: 2em;}
 	border-radius:5px;
 }
 @media (min-width: 480px){
-
-html, body{
-	font-size: 20px;
-}
-.box{
-	margin: 10% auto 5%;
-  width:480px;
+  html, body{
+    font-size: 16px;
+  }
+  .box{
+    margin: 3em 5%;
   }
 }
 .box:before{

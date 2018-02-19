@@ -9,57 +9,58 @@
 </head>
 <body ontouchstart='' class='page' id='gamble'>
 
-<div id="blFlow" class="blk topBlk btmBlk">
+<div id="blFlow">
 	<div id="ctFlows" class='prizeFlow'>
 		积分：<span id='spFlowTotal'></span>
 	</div>
 </div>
 
-<div class='box center'>
-	<div  class='boxTit boxTit4 none'></div>
-	<div id='gambleBox' class='fixPropHt'>
-		<div id='gambleBoxPre' class='fkai'>
-			<div class='fs1p gTop'><span id='phase'></span>，相约一起抓红包!</div>
-			<div  class='bagBig'></div>
-			<div>距离活动开始还有：<br/><span id='timeLeft'></span></div>
-		</div>
-		<div id='gambleBoxStart'>
-			<div id='gStartImg'><img src='img/gamble2.jpg'/></div>
-			<div><button id='gBtnStart' class='btn1'>开始</button></div>
-			<div class='fyel fss1'>我们将实时扣除<span class='flowMin'></span>积分</div>
-		</div>
-		<div id='gambleBoxPlay'>
-			<div class='float_box2'>
-				<div class='left' id='bagGotCtnr'><span id='bagGot'>0</span></div>
-				<div class='right bgYel fgold' id='gameTimeBox'><span id='gameTime'></span></div>
-			</div>
-			<div id='gPlayGnd'></div>
-		</div>
-		<div id='gambleBoxGot'>
-			<div class='fs1p gTop'>恭喜你本次抓住<span class='bags'></span>个红包
-				<br/>
-				获得<span id='prize' class='hl'></span>
-			</div>
-			<div class='bagBig'></div>
-			<div class='float_box2'>
-				<div class='left'><button class='btn1 btn2 fkai btnRestart'>再玩一次</button></div>
-				<div class='right'><button class='btn1 btn2 fkai' id='btnClaim'>立即领取</button></div>
-			</div>
-		</div>
-		<div id='gambleBoxFail'>
-			<div class='fs1p gTop'>真是可惜啊！
-				<div id='txtNone'>没有抓住红包，换个姿势再来</div>
-				<div class='none'>你本次抓住<span class='bags'></span>个红包都是空的</div>
-			</div>
-			<div class='bagBig'></div>
-			<div class='float_box2'>
-				<div class='left'><a class='btn1 btn2 fkai lk' href='index.html?earn=1'>赚积分</a></div>
-				<div class='right'><button class='btn1 btn2 fkai btnRestart'>再玩一次</button></div>
-			</div>
-		</div>
-	</div>
+<div id='box-ctnr'>
+  <div class='box center'>
+    <div  class='boxTit boxTit4 none'></div>
+    <div id='gambleBox' class='fixPropHt'>
+      <div id='gambleBoxPre' class='fkai'>
+        <div class='fs1p gTop'><span id='phase'></span>，相约一起抓红包!</div>
+        <div  class='bagBig'></div>
+        <div>距离活动开始还有：<br/><span id='timeLeft'></span></div>
+      </div>
+      <div id='gambleBoxStart'>
+        <div id='gStartImg'><img src='img/gamble2.jpg'/></div>
+        <div><button id='gBtnStart' class='btn1'>开始</button></div>
+        <div class='fyel fss1'>我们将实时扣除<span class='flowMin'></span>积分</div>
+      </div>
+      <div id='gambleBoxPlay'>
+        <div class='float_box2'>
+          <div class='left' id='bagGotCtnr'><span id='bagGot'>0</span></div>
+          <div class='right bgYel fgold' id='gameTimeBox'><span id='gameTime'></span></div>
+        </div>
+        <div id='gPlayGnd'></div>
+      </div>
+      <div id='gambleBoxGot'>
+        <div class='fs1p gTop'>恭喜你本次抓住<span class='bags'></span>个红包
+          <br/>
+          获得<span id='prize' class='hl'></span>
+        </div>
+        <div class='bagBig'></div>
+        <div class='float_box2'>
+          <div class='left'><button class='btn1 btn2 fkai btnRestart'>再玩一次</button></div>
+          <div class='right'><button class='btn1 btn2 fkai' id='btnClaim'>立即领取</button></div>
+        </div>
+      </div>
+      <div id='gambleBoxFail'>
+        <div class='fs1p gTop'>真是可惜啊！
+          <div id='txtNone'>没有抓住红包，换个姿势再来</div>
+          <div class='none'>你本次抓住<span class='bags'></span>个红包都是空的</div>
+        </div>
+        <div class='bagBig'></div>
+        <div class='float_box2'>
+          <div class='left'><a class='btn1 btn2 fkai lk' href='index.html?earn=1'>赚积分</a></div>
+          <div class='right'><button class='btn1 btn2 fkai btnRestart'>再玩一次</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
 <div id='shortageDlg' class='dlg'> 
 	<div class='dlgBody'> 
 		<div> 亲，剩余积分不足<span class='flowMin'></span>！</div> 

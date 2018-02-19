@@ -1,6 +1,6 @@
 var URL={
   getStatusScore:'getUserScoreNum.do'
-  ,chance:'getChanceNum.do'
+  ,gamble:'chance.do'
 };
 
 for(var i in URL){
